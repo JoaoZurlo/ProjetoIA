@@ -1,0 +1,257 @@
+{
+  "id": "bc64e595-149d-429f-8cde-23ccef3af4ae",
+  "name": "Pedido",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": false,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "number",
+          "dataType": "@sys.number",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$number",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "location",
+          "dataType": "@sys.location",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$location",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Certo, o que você gostaria de pedir hoje?",
+            "fique a vontade, o que você gostaria de pedir?",
+            "Sim posso te ajudar, o que gostaria?",
+            "Qual é o seu pedido para hoje?",
+            "Em que posso ajudá-lo hoje?",
+            "Qual é a sua escolha para hoje?",
+            "O que posso preparar para você hoje?",
+            "Como posso atendê-lo hoje?"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quero fazer meu pedido de ",
+          "userDefined": false
+        },
+        {
+          "text": "pizza",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " o mais rapido possivel!",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "423dea31-ec63-4cbc-b809-feae9c4eb502",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Anote meu pedido de ",
+          "userDefined": false
+        },
+        {
+          "text": "pizza por favor",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.location"
+        },
+        {
+          "text": "!",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "e5462fee-e20c-4d17-90f1-4abc9ad65a13",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quero fazer ",
+          "userDefined": false
+        },
+        {
+          "text": "um",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " pedido!",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5e9769c2-d555-40c8-ad81-566854bd6f93",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Você poderia me ajudar a pedir ",
+          "userDefined": false
+        },
+        {
+          "text": "uma pizza",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.location"
+        },
+        {
+          "text": "?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "0135fea0-ad00-4856-8be8-22b84697084a",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Você poderia fazer ",
+          "userDefined": false
+        },
+        {
+          "text": "um",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " pedido de ",
+          "userDefined": false
+        },
+        {
+          "text": "uma pizza pra",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.location"
+        },
+        {
+          "text": " mim?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "5b16f7ba-cd96-4b5e-941d-0ee282301cb5",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Você poderia anotar meu pedido ?",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "17e8ddc1-01af-4dfa-9e9d-5a5e35179cca",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Quero comprar ",
+          "userDefined": false
+        },
+        {
+          "text": "pizza",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.location"
+        }
+      ],
+      "count": 0,
+      "id": "b45605a0-c909-4d9e-b9de-69bf5317495d",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "<font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">Quero fazer  </font></font>",
+          "userDefined": false
+        },
+        {
+          "text": "um",
+          "userDefined": false,
+          "alias": "number",
+          "meta": "@sys.number"
+        },
+        {
+          "text": "<font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">  pedido de  </font></font>",
+          "userDefined": false
+        },
+        {
+          "text": "pizza",
+          "userDefined": false,
+          "alias": "location",
+          "meta": "@sys.location"
+        },
+        {
+          "text": "<font style=\"vertical-align: inherit;\"><font style=\"vertical-align: inherit;\">  !</font></font>",
+          "userDefined": false
+        }
+      ],
+      "count": 0,
+      "id": "9eef2924-ff03-4ea9-9f62-b5b72d8d7710",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
