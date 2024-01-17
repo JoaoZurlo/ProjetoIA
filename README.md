@@ -1,2 +1,2 @@
 # ProjetoIA
-Criação de um chatbot para automatizar algumas tarefas cotidianas 
+Criação de um chatbot 
