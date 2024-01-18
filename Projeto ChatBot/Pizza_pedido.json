@@ -1,0 +1,417 @@
+{
+  "id": "6bb04e1b-32e8-41d4-a561-b93f7f7bd3e5",
+  "name": "Pizza_pedido",
+  "auto": true,
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "conditionalResponses": [],
+  "context": [],
+  "contexts": [],
+  "endInteraction": true,
+  "events": [],
+  "fallbackIntent": false,
+  "liveAgentHandoff": false,
+  "parentId": null,
+  "followUpIntents": [],
+  "priority": 500000,
+  "responses": [
+    {
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "Sabor1",
+          "dataType": "@Sabores",
+          "isList": true,
+          "required": false,
+          "prompts": [],
+          "value": "$Sabor1",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "Sabor2",
+          "dataType": "@Sabores",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$Sabor2",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "Tamanho1",
+          "dataType": "@Tamanho",
+          "isList": true,
+          "required": false,
+          "prompts": [],
+          "value": "$Tamanho1",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "Tamanho2",
+          "dataType": "@Tamanho",
+          "isList": false,
+          "required": false,
+          "prompts": [],
+          "value": "$Tamanho2",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "Quantidade2",
+          "dataType": "@sys.number",
+          "isList": true,
+          "required": false,
+          "prompts": [],
+          "value": "$Quantidade2",
+          "outputDialogContexts": []
+        },
+        {
+          "noInputPromptMessages": [],
+          "noMatchPromptMessages": [],
+          "promptMessages": [],
+          "defaultValue": "",
+          "name": "Quantidade1",
+          "dataType": "@sys.number",
+          "isList": true,
+          "required": false,
+          "prompts": [],
+          "value": "$Quantidade1",
+          "outputDialogContexts": []
+        }
+      ],
+      "defaultResponsePlatforms": {},
+      "messages": [
+        {
+          "type": "message",
+          "condition": "",
+          "speech": [
+            "Feito  valor total é de R$ 60,00 e seu pedido está confirmado $Sabor1 $Tamanho1 $Quantidade1 e $Quantidade2 $Sabor2 $Tamanho2",
+            "Feito  valor total é de R$ 45,00 e seu pedido está confirmado $Quantidade2 $Sabor2 $Tamanho2 e $Sabor1 $Tamanho1 $Quantidade1",
+            "Feito  valor total é de R$ 110,00 e seu pedido está confirmado $Quantidade2 $Sabor2 $Tamanho2 e $Quantidade2 $Sabor2 $Tamanho2",
+            "Feito  valor total é de R$ 30,00 e seu pedido está confirmado $Quantidade1 $Sabor1 $Tamanho2"
+          ]
+        }
+      ],
+      "resetContexts": false
+    }
+  ],
+  "rootParentId": null,
+  "templates": [],
+  "userSays": [
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Eu gostaria de pedir ",
+          "userDefined": false
+        },
+        {
+          "text": "uma",
+          "userDefined": true,
+          "alias": "Quantidade1",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " pizza de ",
+          "userDefined": false
+        },
+        {
+          "text": "camarão",
+          "userDefined": false,
+          "alias": "Sabor1",
+          "meta": "@Sabores"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "grande",
+          "userDefined": false,
+          "alias": "Tamanho1",
+          "meta": "@Tamanho"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "e",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "duas",
+          "userDefined": false,
+          "alias": "Quantidade2",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "pizzas",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " de ",
+          "userDefined": false
+        },
+        {
+          "text": "muçarela",
+          "userDefined": false,
+          "alias": "Sabor2",
+          "meta": "@Sabores"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "pequenas",
+          "userDefined": false,
+          "alias": "Tamanho2",
+          "meta": "@Tamanho"
+        }
+      ],
+      "count": 0,
+      "id": "15089905-c95e-4f59-b655-9bb562c860ee",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Eu",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " gostaria de pedir ",
+          "userDefined": false
+        },
+        {
+          "text": "uma",
+          "userDefined": true,
+          "alias": "Quantidade1",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " pizza de ",
+          "userDefined": false
+        },
+        {
+          "text": "carne seca com abóbora",
+          "userDefined": false,
+          "alias": "Sabor1",
+          "meta": "@Sabores"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "grande",
+          "userDefined": false,
+          "alias": "Tamanho1",
+          "meta": "@Tamanho"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "e",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": "uma",
+          "userDefined": true,
+          "alias": "Quantidade2",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " pizza ",
+          "userDefined": false
+        },
+        {
+          "text": "pequena",
+          "userDefined": true,
+          "alias": "Tamanho2",
+          "meta": "@Tamanho"
+        },
+        {
+          "text": " de ",
+          "userDefined": false
+        },
+        {
+          "text": "palmito",
+          "userDefined": false,
+          "alias": "Sabor2",
+          "meta": "@Sabores"
+        }
+      ],
+      "count": 0,
+      "id": "17c7100a-a9c9-4bae-9e48-689785b773d2",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Eu gostaria de pedir ",
+          "userDefined": false
+        },
+        {
+          "text": "duas",
+          "userDefined": true,
+          "alias": "Quantidade1",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "pizzas",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " de ",
+          "userDefined": false
+        },
+        {
+          "text": "marguerita",
+          "userDefined": false,
+          "alias": "Sabor1",
+          "meta": "@Sabores"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "grande",
+          "userDefined": true,
+          "alias": "Tamanho1",
+          "meta": "@Tamanho"
+        },
+        {
+          "text": " e  ",
+          "userDefined": false
+        },
+        {
+          "text": "duas",
+          "userDefined": true,
+          "alias": "Quantidade2",
+          "meta": "@sys.number"
+        },
+        {
+          "text": " pizzas de ",
+          "userDefined": false
+        },
+        {
+          "text": "muçarela",
+          "userDefined": true,
+          "alias": "Sabor2",
+          "meta": "@Sabores"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "pequenas",
+          "userDefined": true,
+          "alias": "Tamanho2",
+          "meta": "@Tamanho"
+        }
+      ],
+      "count": 0,
+      "id": "20456b80-6ccc-4fc8-94a3-eb69e8c167da",
+      "updated": null
+    },
+    {
+      "isTemplate": false,
+      "data": [
+        {
+          "text": "Eu gostaria de pedir <span class=\"selection\" selection-value=\"@sys.ignore\" selection-user-defined=\"true\">",
+          "userDefined": false
+        },
+        {
+          "text": "duas",
+          "userDefined": true,
+          "alias": "Quantidade1",
+          "meta": "@sys.number"
+        },
+        {
+          "text": "</span> ",
+          "userDefined": false
+        },
+        {
+          "text": "pizzas",
+          "userDefined": false,
+          "meta": "@sys.ignore",
+          "alias": null
+        },
+        {
+          "text": " de ",
+          "userDefined": false
+        },
+        {
+          "text": "palmito",
+          "userDefined": false,
+          "alias": "Sabor1",
+          "meta": "@Sabores"
+        },
+        {
+          "text": " ",
+          "userDefined": false
+        },
+        {
+          "text": "pequenas",
+          "userDefined": false,
+          "alias": "Tamanho1",
+          "meta": "@Tamanho"
+        }
+      ],
+      "count": 0,
+      "id": "4f358261-61d4-42c1-91b7-4cc2cf9e0daa",
+      "updated": null
+    }
+  ],
+  "webhookForSlotFilling": false,
+  "webhookUsed": false
+}
