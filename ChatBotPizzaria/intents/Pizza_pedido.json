@@ -1,0 +1,125 @@
+{
+  "id": "6bb04e1b-32e8-41d4-a561-b93f7f7bd3e5",
+  "name": "Pizza_pedido",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "3fee0dad-f07a-43b9-87fd-48d044b39020",
+          "name": "Sabor1",
+          "required": false,
+          "dataType": "@Sabores",
+          "value": "$Sabor1",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "d8163c05-ce4d-4c4b-91b7-99700eccf66f",
+          "name": "Sabor2",
+          "required": false,
+          "dataType": "@Sabores",
+          "value": "$Sabor2",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f3164d78-a23d-4247-b1d5-22874a1ba173",
+          "name": "Tamanho1",
+          "required": false,
+          "dataType": "@Tamanho",
+          "value": "$Tamanho1",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "170adc87-f302-4bc9-9199-410575ad8878",
+          "name": "Tamanho2",
+          "required": false,
+          "dataType": "@Tamanho",
+          "value": "$Tamanho2",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "974788de-c35f-4aa2-9846-c9506e1c9858",
+          "name": "Quantidade2",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$Quantidade2",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "5d82a6bd-ab43-4802-87d6-ac8889bdf946",
+          "name": "Quantidade1",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$Quantidade1",
+          "defaultValue": "",
+          "isList": true,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Feito  valor total é de R$ 60,00 e seu pedido está confirmado $Sabor1 $Tamanho1 $Quantidade1 e $Quantidade2 $Sabor2 $Tamanho2",
+            "Feito  valor total é de R$ 45,00 e seu pedido está confirmado $Quantidade2 $Sabor2 $Tamanho2 e $Sabor1 $Tamanho1 $Quantidade1",
+            "Feito  valor total é de R$ 110,00 e seu pedido está confirmado $Quantidade2 $Sabor2 $Tamanho2 e $Quantidade2 $Sabor2 $Tamanho2",
+            "Feito  valor total é de R$ 30,00 e seu pedido está confirmado $Quantidade1 $Sabor1 $Tamanho2",
+            "Feito  valor total é de R$ 30,00 e seu pedido está confirmado $Sabor1 $Tamanho1 $Quantidade1"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

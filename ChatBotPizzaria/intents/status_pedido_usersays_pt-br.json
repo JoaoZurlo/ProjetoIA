@@ -1,0 +1,137 @@
+[
+  {
+    "id": "8916436a-fe36-4eb3-a642-f19d594cb40d",
+    "data": [
+      {
+        "text": "qual o status ",
+        "userDefined": false
+      },
+      {
+        "text": "do",
+        "userDefined": false
+      },
+      {
+        "text": " meu pedido?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "03916580-f965-4eaa-a71d-f5f7344b4433",
+    "data": [
+      {
+        "text": "Qual o status ",
+        "userDefined": false
+      },
+      {
+        "text": "do",
+        "userDefined": false
+      },
+      {
+        "text": " meu pedido?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "0526aa1d-413c-4a45-b6ef-be96355cea84",
+    "data": [
+      {
+        "text": "Onde está o meu pedido?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "f2e76d1f-9c27-4652-8e99-1bdd866c1e04",
+    "data": [
+      {
+        "text": "Ainda não recebi meu pedido!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "af9f4df3-896c-46f3-882a-2b3c79822f58",
+    "data": [
+      {
+        "text": "Qual é o status ",
+        "userDefined": false
+      },
+      {
+        "text": "do",
+        "userDefined": false
+      },
+      {
+        "text": " meu pedido?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "275cf78c-ff37-45e1-a974-579c8629a2d7",
+    "data": [
+      {
+        "text": "Pode me ajudar informando o status ",
+        "userDefined": false
+      },
+      {
+        "text": "do",
+        "userDefined": false
+      },
+      {
+        "text": " meu pedido?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b3276501-ce1f-42a5-ad9a-fe8fd0ff27f3",
+    "data": [
+      {
+        "text": "Olá",
+        "userDefined": false
+      },
+      {
+        "text": " ainda não recebi meu pedido, consegue verificar quanto tempo demorara ",
+        "userDefined": false
+      },
+      {
+        "text": "para",
+        "userDefined": false
+      },
+      {
+        "text": " chegar receber?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

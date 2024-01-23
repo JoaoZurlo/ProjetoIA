@@ -1,0 +1,40 @@
+{
+  "id": "a8c46208-c786-4ff6-8cf1-c6862d7a8507",
+  "name": "obrigado",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Obrigado pela paciência",
+            "Desejamos um bom apetite",
+            "Desejamos uma otima refeição",
+            "Desejamos uma ótima noite, qualquer problema comunicar o mais rapido possivel",
+            "Desejamos uma otima noite"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": [],
+  "endInteraction": true
+}

@@ -1,0 +1,9 @@
+{
+  "id": "584214f7-b311-4b85-80d9-f5db7d95e80d",
+  "name": "Sabores",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": true,
+  "allowFuzzyExtraction": false
+}

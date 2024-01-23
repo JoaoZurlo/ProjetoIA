@@ -1,0 +1,71 @@
+{
+  "id": "bc64e595-149d-429f-8cde-23ccef3af4ae",
+  "name": "Pedido",
+  "auto": true,
+  "contexts": [],
+  "responses": [
+    {
+      "resetContexts": false,
+      "action": "",
+      "affectedContexts": [],
+      "parameters": [
+        {
+          "id": "97db0b65-97d7-4255-900c-c7ba69939f0e",
+          "name": "number",
+          "required": false,
+          "dataType": "@sys.number",
+          "value": "$number",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        },
+        {
+          "id": "f1c67105-e6ca-4023-bd94-515b6a30f7ba",
+          "name": "location",
+          "required": false,
+          "dataType": "@sys.location",
+          "value": "$location",
+          "defaultValue": "",
+          "isList": false,
+          "prompts": [],
+          "promptMessages": [],
+          "noMatchPromptMessages": [],
+          "noInputPromptMessages": [],
+          "outputDialogContexts": []
+        }
+      ],
+      "messages": [
+        {
+          "type": "0",
+          "title": "",
+          "textToSpeech": "",
+          "lang": "pt-br",
+          "speech": [
+            "Certo, o que você gostaria de pedir hoje?",
+            "fique a vontade, o que você gostaria de pedir?",
+            "Sim posso te ajudar, o que gostaria?",
+            "Qual é o seu pedido para hoje?",
+            "Em que posso ajudá-lo hoje?",
+            "Qual é a sua escolha para hoje?",
+            "O que posso preparar para você hoje?",
+            "Como posso atendê-lo hoje?"
+          ],
+          "condition": ""
+        }
+      ],
+      "speech": []
+    }
+  ],
+  "priority": 500000,
+  "webhookUsed": false,
+  "webhookForSlotFilling": false,
+  "fallbackIntent": false,
+  "events": [],
+  "conditionalResponses": [],
+  "condition": "",
+  "conditionalFollowupEvents": []
+}

@@ -1,0 +1,318 @@
+[
+  {
+    "id": "92d9fcff-2ac1-42d6-bcd3-43a29344eb0e",
+    "data": [
+      {
+        "text": "Sim meu pedido tem o numero ",
+        "userDefined": false
+      },
+      {
+        "text": "000012",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "24dd2dba-ab1e-4c34-921a-13ff9b4829b6",
+    "data": [
+      {
+        "text": "Sim, o nùmero ",
+        "userDefined": false
+      },
+      {
+        "text": "do",
+        "userDefined": false
+      },
+      {
+        "text": " meu pedido é: ",
+        "userDefined": false
+      },
+      {
+        "text": "000011",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "ee088f54-05e1-4b97-ae01-62688a0aeacf",
+    "data": [
+      {
+        "text": "\u003cspan class\u003d\"selection\" selection-value\u003d\"@sys.ignore\" selection-user-defined\u003d\"true\"\u003eSim, o nùmero do meu pedido é: ",
+        "userDefined": false
+      },
+      {
+        "text": "000010",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": true
+      },
+      {
+        "text": "\u003c/span\u003e",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 1,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b2176f21-27e0-406f-8580-5a2ffc6c567a",
+    "data": [
+      {
+        "text": "Sim, o nùmero ",
+        "userDefined": false
+      },
+      {
+        "text": "do",
+        "userDefined": false
+      },
+      {
+        "text": " meu pedido é: ",
+        "userDefined": false
+      },
+      {
+        "text": "000009",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "95b7b96c-c356-46e9-8991-af8373f2995f",
+    "data": [
+      {
+        "text": "Sim, o nùmero ",
+        "userDefined": false
+      },
+      {
+        "text": "do",
+        "userDefined": false
+      },
+      {
+        "text": " meu pedido é: ",
+        "userDefined": false
+      },
+      {
+        "text": "000008",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "e767ff17-3970-49ef-854b-70608eefb86d",
+    "data": [
+      {
+        "text": "Sim, o nùmero ",
+        "userDefined": false
+      },
+      {
+        "text": "do",
+        "userDefined": false
+      },
+      {
+        "text": " meu pedido é: ",
+        "userDefined": false
+      },
+      {
+        "text": "000007",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "77e7675f-0a80-48f7-be88-15efd579a1c8",
+    "data": [
+      {
+        "text": "Sim, o nùmero ",
+        "userDefined": false
+      },
+      {
+        "text": "do",
+        "userDefined": false
+      },
+      {
+        "text": " meu pedido é: ",
+        "userDefined": false
+      },
+      {
+        "text": "000006",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b326521d-2aa3-41cd-bbda-3bc75115937e",
+    "data": [
+      {
+        "text": "Sim, o nùmero ",
+        "userDefined": false
+      },
+      {
+        "text": "do",
+        "userDefined": false
+      },
+      {
+        "text": " meu pedido é: ",
+        "userDefined": false
+      },
+      {
+        "text": "000005",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "a561aa94-f389-4b32-8e9d-7925b3ca3a07",
+    "data": [
+      {
+        "text": "Sim, o nùmero ",
+        "userDefined": false
+      },
+      {
+        "text": "do",
+        "userDefined": false
+      },
+      {
+        "text": " meu pedido é: ",
+        "userDefined": false
+      },
+      {
+        "text": "000004",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "335b561c-1324-4de4-8832-d855815375ed",
+    "data": [
+      {
+        "text": "Sim, o nùmero ",
+        "userDefined": false
+      },
+      {
+        "text": "do",
+        "userDefined": false
+      },
+      {
+        "text": " meu pedido é: ",
+        "userDefined": false
+      },
+      {
+        "text": "000003",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "86803842-5f2e-4232-9964-9796c4d2dc53",
+    "data": [
+      {
+        "text": "Sim, o nùmero ",
+        "userDefined": false
+      },
+      {
+        "text": "do",
+        "meta": "@sys.color",
+        "alias": "color",
+        "userDefined": false
+      },
+      {
+        "text": " meu pedido é: ",
+        "userDefined": false
+      },
+      {
+        "text": "000002",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "22f4a86d-31bf-4019-bd36-77a41735dbb1",
+    "data": [
+      {
+        "text": "Sim, o nùmero ",
+        "userDefined": false
+      },
+      {
+        "text": "do",
+        "meta": "@sys.color",
+        "alias": "color",
+        "userDefined": false
+      },
+      {
+        "text": " meu pedido é: ",
+        "userDefined": false
+      },
+      {
+        "text": "000001",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

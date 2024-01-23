@@ -1,0 +1,9 @@
+{
+  "id": "decc9e35-52f5-4696-9c9e-085da2771edb",
+  "name": "Tamanho",
+  "isOverridable": true,
+  "isEnum": false,
+  "isRegexp": false,
+  "automatedExpansion": false,
+  "allowFuzzyExtraction": false
+}

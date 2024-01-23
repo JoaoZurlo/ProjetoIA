@@ -1,0 +1,97 @@
+[
+  {
+    "id": "d36dc401-de51-4b37-92da-7d429fa293bc",
+    "data": [
+      {
+        "text": "Ok",
+        "userDefined": false
+      },
+      {
+        "text": ", fico no aguardo",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "2439b990-f1d1-4e43-aba9-c94d046ea79a",
+    "data": [
+      {
+        "text": "Obrigada",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "1275cb4c-2d2a-4f54-8f3a-8e62837ee356",
+    "data": [
+      {
+        "text": "Agradecida",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "6b44ccf0-a0d5-4a79-a61a-0b75f7301ba7",
+    "data": [
+      {
+        "text": "Agradecido",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "7c368d5a-321a-44fe-86ba-09d4f552bfaa",
+    "data": [
+      {
+        "text": "Muitissimo obrigado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "86921b3c-a08d-43ce-a853-8e593d5c537a",
+    "data": [
+      {
+        "text": "Ok, obrigado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "41a5785e-e7bf-42ad-9d27-48e034ee8941",
+    "data": [
+      {
+        "text": "Muito obrigado",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]

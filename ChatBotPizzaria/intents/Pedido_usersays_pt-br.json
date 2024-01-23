@@ -1,0 +1,192 @@
+[
+  {
+    "id": "423dea31-ec63-4cbc-b809-feae9c4eb502",
+    "data": [
+      {
+        "text": "Quero fazer meu pedido de ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      },
+      {
+        "text": " o mais rapido possivel!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "e5462fee-e20c-4d17-90f1-4abc9ad65a13",
+    "data": [
+      {
+        "text": "Anote meu pedido de ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza por favor",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      },
+      {
+        "text": "!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "5e9769c2-d555-40c8-ad81-566854bd6f93",
+    "data": [
+      {
+        "text": "Quero fazer ",
+        "userDefined": false
+      },
+      {
+        "text": "um",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": " pedido!",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "0135fea0-ad00-4856-8be8-22b84697084a",
+    "data": [
+      {
+        "text": "Você poderia me ajudar a pedir ",
+        "userDefined": false
+      },
+      {
+        "text": "uma pizza",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      },
+      {
+        "text": "?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "5b16f7ba-cd96-4b5e-941d-0ee282301cb5",
+    "data": [
+      {
+        "text": "Você poderia fazer ",
+        "userDefined": false
+      },
+      {
+        "text": "um",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": " pedido de ",
+        "userDefined": false
+      },
+      {
+        "text": "uma pizza pra",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      },
+      {
+        "text": " mim?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "17e8ddc1-01af-4dfa-9e9d-5a5e35179cca",
+    "data": [
+      {
+        "text": "Você poderia anotar meu pedido ?",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "b45605a0-c909-4d9e-b9de-69bf5317495d",
+    "data": [
+      {
+        "text": "Quero comprar ",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  },
+  {
+    "id": "9eef2924-ff03-4ea9-9f62-b5b72d8d7710",
+    "data": [
+      {
+        "text": "\u003cfont style\u003d\"vertical-align: inherit;\"\u003e\u003cfont style\u003d\"vertical-align: inherit;\"\u003eQuero fazer  \u003c/font\u003e\u003c/font\u003e",
+        "userDefined": false
+      },
+      {
+        "text": "um",
+        "meta": "@sys.number",
+        "alias": "number",
+        "userDefined": false
+      },
+      {
+        "text": "\u003cfont style\u003d\"vertical-align: inherit;\"\u003e\u003cfont style\u003d\"vertical-align: inherit;\"\u003e  pedido de  \u003c/font\u003e\u003c/font\u003e",
+        "userDefined": false
+      },
+      {
+        "text": "pizza",
+        "meta": "@sys.location",
+        "alias": "location",
+        "userDefined": false
+      },
+      {
+        "text": "\u003cfont style\u003d\"vertical-align: inherit;\"\u003e\u003cfont style\u003d\"vertical-align: inherit;\"\u003e  !\u003c/font\u003e\u003c/font\u003e",
+        "userDefined": false
+      }
+    ],
+    "isTemplate": false,
+    "count": 0,
+    "lang": "pt-br",
+    "updated": 0
+  }
+]
